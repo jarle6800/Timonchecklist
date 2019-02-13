@@ -24,7 +24,8 @@
         <activity android:name=".Ronde5" />
         <activity android:name=".Ronde6" />
         <activity android:name=".Ronde7" />
-        <activity android:name=".Sites"></activity>
+        <activity android:name=".Sites" />
+        <activity android:name=".Contact"></activity>
     </application>
 
 </manifest>
