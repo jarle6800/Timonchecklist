@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Timon checklist</string>
+    <string name="vooruitgang">vooruitgang</string>
+    <string name="checklists">checklists</string>
+    <string name="naar_checklists">naar checklists</string>
+    <string name="ronde1">ronde 1</string>
+    <string name="ronde3">ronde 3</string>
+    <string name="ronde4">ronde 4</string>
+    <string name="ronde5">ronde 5</string>
+    <string name="ronde6">ronde 6</string>
+    <string name="ronde7">ronde 7</string>
+    <string name="ronde2">ronde 2</string>
+    <string name="terug_naar_hoofdmenu">terug naar hoofdmenu</string>
+    <string name="checklist_voor_ronde_1">checklist voor ronde 1: Overzicht</string>
+    <string name="digid">www.digid.nl</string>
+    <string name="Telefoon_abbonnement">www.consumentenbond.nl/mobieltelefonievergelijker</string>
+    <string name="Recht_op_voorzieningen">www.berekenuwrecht.nl</string>
+    <string name="gemeente">www.berekenuwrechtplus.nl</string>
+    <string name="belastingteruggave">www.belastingdienst.nl/rekenhulpen/jongeren</string>
+    <string name="bespaartips">www.energielastenverlager.nl</string>
+    <string name="verzekeren_en_begrippen">www.allesoverdepolis.nl</string>
+    <string name="is_verzekeren_nodig">www.verzekeringssite.nl/check</string>
+    <string name="verzekering_voor_jongeren">www.18ennu.nl</string>
+</resources>
