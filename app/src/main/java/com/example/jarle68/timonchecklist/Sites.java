@@ -9,6 +9,8 @@ import android.os.Bundle;
 import android.text.method.LinkMovementMethod;
 import android.text.util.Linkify;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -35,6 +37,32 @@ public class Sites extends AppCompatActivity {
         editor.commit();
 
         button_stuff();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        return true;
+
+
+
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        int id = item.getItemId();
+
+        if (id == R.id.contact) {
+
+            Intent intent = new Intent(this,Contact.class);
+            this.startActivity(intent);
+            return true;
+        }
+
+
+        return super.onOptionsItemSelected(item);
+
     }
 
     private void addToDatabase(String email, String naam)
